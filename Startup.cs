@@ -22,7 +22,7 @@ namespace AmelyCordova_AppWebAbstractFactory
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("*** Factory Method***\n\n");
+                    await context.Response.WriteAsync("*** Abstract Factory***\n\n");
 
                     await context.Response.WriteAsync("*** Haciendo un wild tiger mediante WildAnimalFactory ***\n\n");
                     //Haciendo un wild tiger mediante WildAnimalFactory

@@ -9,7 +9,7 @@
         }
         public void Action()
         {
-            _response.WriteAsync("Pet Tigers jugar en un circo de animales.\n\n");
+            _response.WriteAsync("Pet Tigers juegan en un circo de animales.\n\n");
         }
     }
 }
